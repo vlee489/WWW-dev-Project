@@ -52,8 +52,30 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .about-me{
     background-color: #3D5A80 !important;
+    margin: 0%;
+    width: 100%;
 }
 
 .profile{
     border-radius: 50%;
+}
+
+#main{
+    padding: 0;
+}
+
+footer{
+    background-color: #98C1D9;
+    alignment: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.icon-2x{
+    font-size: 32px;
+}
+
+#subtext{
+    background-color: black;
+    opacity: 0.8;
 }
