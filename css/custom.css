@@ -49,3 +49,11 @@ font-family: 'Source Sans Pro', sans-serif;
         top: 0;
     }
 }
+
+.about-me{
+    background-color: #3D5A80 !important;
+}
+
+.profile{
+    border-radius: 50%;
+}
