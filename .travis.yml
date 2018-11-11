@@ -9,6 +9,7 @@ addons:
 branches:
   only:
     - master
+    - working
 
 install:
  - pip install html5validator
