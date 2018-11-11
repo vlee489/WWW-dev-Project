@@ -101,7 +101,19 @@ footer{
 }
 
 #scriptor{
-    background: rgba(255, 255, 255, 0.4) url("https://github.com/NIRaspberryJam/Raspberry-Jam-Resources/blob/master/Activities/Getting-started-with-the-Pi-Stop-Scratch/Images/MainPhoto.jpg?raw=true") no-repeat center;
+    background: rgba(255, 255, 255, 0.4) url("http://ac11002.vlee.me.uk/assets/images/Header1.jpg") no-repeat center;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+#splatnet2-reverse{
+    background: rgba(255, 255, 255, 0.4) url("https://external-preview.redd.it/8jjug6CO1uOJ0woWx9VdrqUnjTTS9FkvyCedSzaPZxs.png?auto=webp&s=9af2e752c471444511336f801715ef301d5c42be") no-repeat center;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+#strings{
+    background: rgba(255, 255, 255, 0.4) url("http://ac11002.vlee.me.uk/assets/images/header.png") no-repeat center;
     background-blend-mode: lighten;
     background-size: cover;
 }
