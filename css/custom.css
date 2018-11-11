@@ -113,7 +113,7 @@ footer{
 }
 
 #strings{
-    background: rgba(255, 255, 255, 0.4) url("http://ac11002.vlee.me.uk/assets/images/header.png") no-repeat center;
+    background: rgba(255, 255, 255, 0.4) url("http://ac11002.vlee.me.uk/assets/images/header.PNG") no-repeat center;
     background-blend-mode: lighten;
     background-size: cover;
 }
