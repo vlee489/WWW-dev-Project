@@ -79,3 +79,33 @@ footer{
     background-color: black;
     opacity: 0.8;
 }
+
+#projects{
+    width: 100%;
+}
+
+.project-item{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#jam-worksheet{
+    background: rgba(255, 255, 255, 0.5) url("https://pbs.twimg.com/media/DrqWjY-X4AAAJ07.jpg:large") center;
+    background-blend-mode: lighten;
+}
+
+#splatstats{
+    background: rgba(255, 255, 255, 0.4) url("https://splatstats.ink/assets/images/2018022121321500-397a963da4660090d65d330174ac6b04-1280x720.jpg") no-repeat center;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+#scriptor{
+    background: rgba(255, 255, 255, 0.4) url("https://github.com/NIRaspberryJam/Raspberry-Jam-Resources/blob/master/Activities/Getting-started-with-the-Pi-Stop-Scratch/Images/MainPhoto.jpg?raw=true") no-repeat center;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+.pop{
+    text-shadow: 0 1px black;
+}
