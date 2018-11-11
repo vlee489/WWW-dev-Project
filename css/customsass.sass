@@ -1,0 +1,15 @@
+%#{$scope}grid-container {
+  @extend %#{$scope}clearfix;
+  margin-left: 100%;
+  margin-right: 100%;
+
+  @if $container-max-width != none {
+    max-width: $container-max-width;
+}
+
+  // Set if gutter is non-zero.
+  @if $gutter-half != 0 {
+    padding-left: $gutter-half;
+    padding-right: $gutter-half;
+}
+}
