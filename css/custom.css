@@ -24,6 +24,11 @@ font-family: 'Source Sans Pro', sans-serif;
     background-color: #98C1D9 !important;
 }
 
+.vlee-light-blue-background{
+    background-color: #E0FBFC;
+}
+
+
 .parallax-container {
     min-height: 380px;
     line-height: 0;
@@ -120,4 +125,18 @@ footer{
 
 .pop{
     text-shadow: 0 1px black;
+}
+
+#contact-about{
+    vertical-align: center;
+}
+
+.text-center{
+    margin-top: 10%;
+    vertical-align: center;
+
+}
+
+#contact-me{
+
 }
