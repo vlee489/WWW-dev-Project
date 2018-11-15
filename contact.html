@@ -41,7 +41,7 @@
 
             <ul id="nav-mobile" class="sidenav">
                 <li><h5 class="vlee-red center">Contact Me</h5></li>
-                <li><a href="index.html">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="cv.html">CV</a></li>
                 <li><a href="https://twitter.com/vlee888"><i class="fab fa-twitter"></i>My Twitter</a></li>
@@ -53,23 +53,50 @@
     </nav>
 </header>
 
-<main class="grid-container" id="contact">
-    <br>
-    <div class="grid-100 grid-parent" id="contact-about">
-        <img src="assets/images/profile.jpg" class="grid-25 tablet-grid-30 mobile-grid-100 profile"
+<main class="grid-100 grid-parent" id="contact">
+    <div class="grid-100 grid-parent vlee-dark-blue-background" id="contact-about">
+        <div class="grid-100"><br></div>
+        <div class="grid-10"><br></div>
+        <img src="assets/images/profile.jpg" class="grid-20 mobile-grid-100 tablet-grid-20 profile"
              alt="Profile image based on Splatoon 2's Squid character">
-        <div class="grid-75 mobile-grid-100 center">
+        <div class="grid-60 tablet-grid-80 mobile-grid-100 center">
             <br>
-        <h6 class="vlee-mid-blue text-center">Feel free to use the following method to contact me, or use the contact form bellow.</h6>
+            <h5 class="vlee-mid-blue text-center">Feel free to use the following method to contact me, or use the
+                contact form bellow.</h5>
         </div>
+        <div class="grid-100 tablet-grid-100"><br></div>
     </div>
 
     <div class="grid-parent grid-100 center vlee-mid-blue-background" id="contact-me">
+        <div class="grid-100"><br></div>
         <div class="grid-33 hide-on-mobile"><br></div>
         <div class="grid-33 mobile-grid-100 vlee-dark-grey">
-            <a href="mailto:vlee@vlee.me.uk"><i class="fas fa-envelope icon-2x"></i>  Email Me</a>
+            <a href="mailto:vlee@vlee.me.uk"><i class="fas fa-envelope icon-2x"></i> Email Me</a>
             <br>
             <a href="http://discord.com"><i class="fab fa-discord icon-2x"></i> Discord : vlee489 #5801</a>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="grid-parent grid-100 center" id="form">
+        <div class="grid-15 tablet-grid-10 hide-on-mobile"><br></div>
+        <div class="grid-70 tablet-grid-80 mobile-grid-100">
+            <form action="https://formspree.io/vlee@vlee.me.uk" method="POST">
+                <h4 class="vlee-mid-blue">Contact Me</h4>
+                <input placeholder="Name" id="name" type="text" class="validate">
+                <input placeholder="Email" id="email" type="email" class="validate">
+                <span class="helper-text" data-error="Invalid Email Address" data-success="right"></span>
+                <div class="input-field">
+                    <textarea id="message" class="materialize-textarea"></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+                <br>
+                <br>
+            </form>
         </div>
     </div>
 </main>

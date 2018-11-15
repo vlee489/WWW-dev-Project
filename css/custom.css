@@ -28,6 +28,10 @@ font-family: 'Source Sans Pro', sans-serif;
     background-color: #E0FBFC;
 }
 
+.vlee-dark-blue-background{
+    background-color: #293241;
+}
+
 
 .parallax-container {
     min-height: 380px;
@@ -95,29 +99,57 @@ footer{
 }
 
 #jam-worksheet{
+    background: rgba(255, 255, 255, 0.9) url("https://pbs.twimg.com/media/DrqWjY-X4AAAJ07.jpg:large") center;
+    background-blend-mode: lighten;
+}
+#jam-worksheet:hover{
     background: rgba(255, 255, 255, 0.5) url("https://pbs.twimg.com/media/DrqWjY-X4AAAJ07.jpg:large") center;
     background-blend-mode: lighten;
 }
 
 #splatstats{
-    background: rgba(255, 255, 255, 0.4) url("https://splatstats.ink/assets/images/2018022121321500-397a963da4660090d65d330174ac6b04-1280x720.jpg") no-repeat center;
+    background: rgba(255, 255, 255, 0.8) url("https://splatstats.ink/assets/images/2018022121321500-397a963da4660090d65d330174ac6b04-1280x720.jpg") no-repeat center;
     background-blend-mode: lighten;
     background-size: cover;
 }
 
 #scriptor{
-    background: rgba(255, 255, 255, 0.4) url("http://ac11002.vlee.me.uk/assets/images/Header1.jpg") no-repeat center;
+    background: rgba(255, 255, 255, 0.8) url("http://ac11002.vlee.me.uk/assets/images/Header1.jpg") no-repeat center;
     background-blend-mode: lighten;
     background-size: cover;
 }
 
 #splatnet2-reverse{
-    background: rgba(255, 255, 255, 0.4) url("https://external-preview.redd.it/8jjug6CO1uOJ0woWx9VdrqUnjTTS9FkvyCedSzaPZxs.png?auto=webp&s=9af2e752c471444511336f801715ef301d5c42be") no-repeat center;
+    background: rgba(255, 255, 255, 0.8) url("https://external-preview.redd.it/8jjug6CO1uOJ0woWx9VdrqUnjTTS9FkvyCedSzaPZxs.png?auto=webp&s=9af2e752c471444511336f801715ef301d5c42be") no-repeat center;
     background-blend-mode: lighten;
     background-size: cover;
 }
 
 #strings{
+    background: rgba(255, 255, 255, 0.8) url("http://ac11002.vlee.me.uk/assets/images/header.PNG") no-repeat center;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+#splatstats:hover{
+    background: rgba(255, 255, 255, 0.4) url("https://splatstats.ink/assets/images/2018022121321500-397a963da4660090d65d330174ac6b04-1280x720.jpg") no-repeat center;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+#scriptor:hover{
+    background: rgba(255, 255, 255, 0.4) url("http://ac11002.vlee.me.uk/assets/images/Header1.jpg") no-repeat center;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+#splatnet2-reverse:hover{
+    background: rgba(255, 255, 255, 0.4) url("https://external-preview.redd.it/8jjug6CO1uOJ0woWx9VdrqUnjTTS9FkvyCedSzaPZxs.png?auto=webp&s=9af2e752c471444511336f801715ef301d5c42be") no-repeat center;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+#strings:hover{
     background: rgba(255, 255, 255, 0.4) url("http://ac11002.vlee.me.uk/assets/images/header.PNG") no-repeat center;
     background-blend-mode: lighten;
     background-size: cover;
