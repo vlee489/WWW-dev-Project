@@ -22,10 +22,12 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/unsemantic-grid-responsive-tablet.css" rel="stylesheet">
     <link href="css/materialize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/><!--for github-calendar-->
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script> <!--for github-calendar-->
 </head>
 <body>
 <!--Header taken from materialize example-->
@@ -41,7 +43,7 @@
 
             <ul id="nav-mobile" class="sidenav">
                 <li><h5 class="vlee-red center">CV</h5></li>
-                <li><a href="index.html">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
                 <li><a href="https://twitter.com/vlee888"><i class="fab fa-twitter"></i>My Twitter</a></li>
@@ -53,7 +55,82 @@
     </nav>
 </header>
 
-<main class="grid-container" id="cv">
+<main class="grid-parent" id="cv">
+    <div class="grid-100  vlee-mid-blue-background">
+        <div class="grid-15 tablet-grid-10 hide-on-mobile"><br></div><!--used to center next grid-->
+        <div class="grid-70 tablet-grid-80 mobile-grid-100 center">
+            <h1 class="vlee-dark-blue">CV</h1>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <article>
+            <h3 class="vlee-dark-blue">About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+        </article>
+
+        <!--Table of education-->
+        <article>
+            <h3 class="vlee-dark-blue">Education</h3>
+            <table class="striped">
+                <thead>
+                <tr>
+                    <th>Place of Education</th>
+                    <th>Date</th>
+                    <th>Course</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Bangor Academy and Sixth Form Collage</td>
+                    <td>2014-2016</td>
+                    <td>GCSE</td>
+                </tr>
+                <tr>
+                    <td>Bangor Grammar School</td>
+                    <td>2016-2018</td>
+                    <td>A Levels</td>
+                </tr>
+                <tr>
+                    <td>University of Dundee</td>
+                    <td>2018-Current</td>
+                    <td>Applied Computing</td>
+                </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <article>
+            <h3 class="vlee-dark-blue">Events I've helped at</h3>
+            <ul class="collection">
+                <li class="collection-item"><a href="http://niraspberryjam.com">Northern Ireland Raspberry Jam (2012-Current)</a></li>
+                <li class="collection-item">Mozilla festival 2018</li>
+                <li class="collection-item">W5 Late  <i>(Part of NI Raspberry Jam)</i></li>
+                <li class="collection-item">Mozilla festival 2017</li>
+                <li class="collection-item">Dublin Maker 2017  <i>(Part of NI Raspberry Jam)</i></li>
+                <li class="collection-item">Mozilla festival 2016</li>
+                <li class="collection-item">Dublin Maker 2016  <i>(Part of NI Raspberry Jam)</i></li>
+                <li class="collection-item">Dublin Maker 2015  <i>(Part of NI Raspberry Jam)</i></li>
+            </ul>
+        </article>
+
+        <article>
+            <h3 class="vlee-dark-blue">Github Commit History</h3>
+            <div class="calendar hide-on-mobile">
+                <!-- Loading stuff -->
+                Loading Github Data!
+            </div>
+            <p class="hide-on-desktop hide-on-tablet">Apologies, but the github commit history is only properly viewable on PC and Tablets. &gt;.&lt;</p>
+            <!-- from https://github.com/IonicaBizau/github-calendar for github calender-->
+            <script>new GitHubCalendar(".calendar", "vlee489");</script>
+            <br>
+        </article>
+
+    </div>
 
 </main>
 
@@ -74,3 +151,4 @@
 </footer>
 </body>
 </html>
+

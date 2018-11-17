@@ -37,5 +37,7 @@ The following are the libraries I've used, their licences can be found within th
 - [Materialize](https://materializecss.com) : A Material Design based css framework
 - [UnSemantic](https://unsemantic.com) : A CSS grid system
 - [Normalize.css](https://necolas.github.io/normalize.css/) : CSS reseter
+- [Font Awesome](https://fontawesome.com/) : Icons
+- [github-calendar](https://github.com/IonicaBizau/github-calendar) : A Javascript library and CSS used too add a github commit calendar to the website
 
-All code made by my is licenced under MIT
+All code made by me is licenced under MIT
